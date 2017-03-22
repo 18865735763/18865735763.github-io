@@ -1,0 +1,212 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, menu, nav, section {display: block;}
+ol,ul{list-style:none;
+}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+a{text-decoration:none;}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: no-repeat fixed center;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+}
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 130px;
+    margin-top: 30%;
+}
+h1 span{
+    font-size: 30px;
+}
+.container {
+    width: 32%;
+    margin: 50px auto;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+}
+#time{
+    padding: 65px;
+}
+#search{
+    width: 100%;
+    height: 38px;
+    margin: 50px auto;
+    text-align: center;
+	max-width:1300px;
+}
+.footer{
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    bottom: 0;
+    width: 100%;
+}
+#text{
+    position: absolute;
+    bottom: 100px;
+    color: darkgray;
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.searchForm {width: 65%;height: 40px;margin: 150px auto;background: #444;background: rgba(0,0,0,.2);border-radius:  3px;border: 1px solid #fff;}
+
+.searchForm input {font-size: 16px;width: 80%;line-height: 38px;float: left;border: 0;background: transparent;border-radius: 3px 0 0 3px;padding-left: 10px;}
+
+.searchForm input:focus {outline: 0;background:#fff;color: #000;}
+
+.searchForm button {position: relative;float: right;border: 0;padding: 0;cursor: pointer;height: 40px;width: 20%;color: #fff;background: transparent;border-left: 1px solid #fff;border-radius: 0 3px 3px 0;}
+
+/*.searchForm button:hover{background: #fff;color:#444;}*/
+@media screen and (max-width: 1440px) {
+    input.search{
+        width: 63%;
+    }
+}
+@media screen and (max-width: 1586px) {
+    .container {
+        width: 37%;
+    }
+    h1 {
+        letter-spacing: 4px;
+        font-size: 72px;
+    }
+    #time{
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 46%;
+    }
+    h1 {
+        letter-spacing: 4px;
+        font-size: 60px;
+    }
+    #time{
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 991px) {
+    h1{
+        margin-top:50px;
+    }
+    .container {
+        width: 52%;
+    }
+    h1 span{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 63%;
+    }
+}
+@media screen and (max-width: 2100px) {
+    h1 {
+        letter-spacing: 4px;
+        font-size:90px;
+    }
+}
+@media screen and (max-width: 736px) {
+    h1 {
+        letter-spacing: 4px;
+        font-size: 35px;
+    }
+    #time{
+        padding: 20px;
+    }
+    h1 {
+        letter-spacing: 4px;
+        font-size:50px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .container {
+        width: 66%;
+    }
+}
+@media screen and (max-width: 640px) {
+
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 568px) {
+    .container {
+        width: 74%;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        letter-spacing: 2px;
+        font-size: 31px;
+    }
+    .container {
+        width: 78%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .container {
+        width: 85%;
+    }
+    input.search {
+        width: 58.5%;
+        padding: 9px 9px 9px 15px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    input.search {
+        width: 57.5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 27px;
+    }
+    input.search {
+        width: 57%;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 23px;
+        letter-spacing:1px;
+    }
+    input.search {
+        padding: 8px 9px 8px 15px;
+        width:55%;
+    }
+}
+.footer div p {
+    color: #4c4848;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.footer div p a {
+    color: #000000;
+}
